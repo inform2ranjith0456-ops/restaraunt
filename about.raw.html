@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#fff8f6","primary-fixed-dim":"#ffb68e","on-primary-container":"#fff1eb","inverse-on-surface":"#ffede6","on-primary-fixed":"#331200","on-tertiary":"#ffffff","on-surface":"#2b160c","on-error":"#ffffff","background":"#fff8f6","surface-container":"#ffeae1","on-secondary-container":"#007233","primary-fixed":"#ffdbca","on-primary":"#ffffff","tertiary-container":"#a95b00","surface-variant":"#ffdbcc","outline":"#897267","tertiary":"#854600","on-tertiary-fixed":"#2f1500","inverse-primary":"#ffb68e","on-secondary-fixed":"#00210a","surface-container-high":"#ffe2d6","on-tertiary-fixed-variant":"#6e3900","error":"#ba1a1a","on-tertiary-container":"#fff1e9","primary-container":"#b45309","secondary-fixed-dim":"#79db8d","surface-container-low":"#fff1eb","surface-container-lowest":"#ffffff","on-secondary-fixed-variant":"#005323","secondary":"#006d30","on-secondary":"#ffffff","inverse-surface":"#422b20","tertiary-fixed-dim":"#ffb77d","surface-container-highest":"#ffdbcc","secondary-container":"#92f5a4","on-primary-fixed-variant":"#763300","primary":"#903f00","outline-variant":"#ddc1b3","tertiary-fixed":"#ffdcc3","on-background":"#2b160c","on-error-container":"#93000a","surface-tint":"#9b4500","surface-dim":"#f9d2c1","error-container":"#ffdad6","secondary-fixed":"#95f8a7","on-surface-variant":"#564338","surface":"#fff8f6"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter-mobile":"1rem","margin-mobile":"1.25rem","space-xs":"0.25rem","space-xl":"2.5rem","space-sm":"0.5rem","margin":"3rem","space-md":"1rem","space-lg":"1.5rem","gutter":"1.5rem"},fontFamily:{"title-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Noto Serif"],"headline-lg":["Noto Serif"],"display-hero":["Noto Serif"],"body-sm":["Plus Jakarta Sans"],"label-heritage":["Noto Serif"],"display-hero-mobile":["Noto Serif"],"title-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Noto Serif"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Noto Serif"]},fontSize:{"title-lg":["18px",{lineHeight:"26px",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-lg-mobile":["26px",{lineHeight:"32px",letterSpacing:"0em",fontWeight:"600"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-hero":["52px",{lineHeight:"60px",letterSpacing:"-0.02em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"label-heritage":["11px",{lineHeight:"14px",letterSpacing:"0.1em",fontWeight:"600"}],"display-hero-mobile":["34px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"600"}],"title-md":["16px",{lineHeight:"24px",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"500"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 shadow-[0_1px_8px_rgba(41,21,11,0.06)]"><div class="w-full bg-surface-container-high"><div class="max-w-[1280px] mx-auto px-6 lg:px-12 h-10 flex items-center justify-between text-on-surface-variant font-label-md text-label-md"><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-secondary inline-block"></span><span>100% Pure Vegetarian | Traditional South Indian Delights | Open Daily: 6:30 AM - 10:30 PM</span></div><div class="hidden md:flex items-center gap-space-lg"><a class="flex items-center gap-1.5 text-tertiary hover:text-primary transition-colors" href="tel:+914424345678"><span class="material-symbols-outlined text-[16px]">call</span><span>+91 44 2434 5678</span></a><span class="text-outline-variant">|</span><span class="flex items-center gap-1 text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-secondary">verified</span><span>Authentic Ghee &amp; Filter Coffee</span></span></div></div></div><div class="h-20 bg-surface/95 backdrop-blur-md"><div class="max-w-[1280px] mx-auto px-6 lg:px-12 h-full flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="Welcome Restaurant Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UGj7rm-lWeByGZT_Fd7rCywK9SfWYXCPA4mEvfLT3Ha2pMgSzf5OK99c6vKH0BE6C0MdyVdEmBxVIWRqBJs35p2e52SaParb30KJMZK0iiZvE18Gegcvh9GiCuP0td6lyGs0TpuD9XmIxHulTUlnzvbpocVDBh1NrM7qaIQeQz5wyCoLSByEL6zWe5ItVq9z_W6AzFc556nIp8M6xgtwRLEzRrtBPZM1xKIOzhcSyc_hE7tDchJvmjRohm"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Welcome Restaurant</span><span class="font-label-heritage text-label-heritage text-tertiary uppercase tracking-widest">Pure Veg Heritage • Est. 1984</span></div></div><nav class="hidden lg:flex items-center gap-space-sm p-1" data-active-classes="bg-surface-container text-primary font-title-md rounded-lg"><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="home" href="#">Home</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="menus" href="#">Menus</a><a aria-current="page" class="px-space-md py-2 transition-colors bg-surface-container text-primary font-title-md rounded-lg" data-path="about" href="#">Our Story</a><a class="px-space-md py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-2 px-3 py-1 rounded bg-secondary/10"><span class="w-3.5 h-3.5 rounded-sm border border-secondary flex items-center justify-center p-0.5"><span class="w-2 h-2 rounded-full bg-secondary block"></span></span><span class="font-label-heritage text-label-heritage text-secondary tracking-wider uppercase font-semibold">100% Pure Veg</span></div><div class="hidden md:flex items-center gap-space-sm"><button class="h-10 px-4 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary font-label-lg text-label-lg transition-colors" type="button">Book a Table</button><button class="h-10 px-4 rounded-lg bg-primary hover:bg-tertiary text-on-primary font-label-lg text-label-lg transition-colors shadow-[0_2px_8px_rgba(144,63,0,0.2)]" type="button">Order Online</button></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-[120px] bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<!-- Story Hero (Bleeds seamlessly beneath sticky header) -->
+<section class="relative w-full overflow-hidden -mt-[120px] pt-[150px] pb-24 md:pb-32 bg-surface-container-low">
+<div class="absolute inset-0 opacity-20 pointer-events-none bg-[radial-gradient(#903f00_1px,transparent_1px)] [background-size:24px_24px]"></div>
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container text-primary shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-heritage text-label-heritage uppercase tracking-widest text-primary">Preserving Culinary Lineage Since 1984</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-[1.1]">
+            Four Decades of <br/>
+<span class="text-primary italic font-normal">Pure Vegetarian</span> Heritage
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Honoring South India's culinary traditions with uncompromising purity, authentic methods, and heartfelt hospitality since 1984.
+          </p>
+<div class="pt-4 flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-6 h-12 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all shadow-md hover:shadow-lg" href="#manifesto">
+              Explore Our Manifesto
+              <span class="material-symbols-outlined ml-2 text-[18px]">south</span>
+</a>
+<a class="inline-flex items-center justify-center px-6 h-12 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-lg text-label-lg transition-colors" href="#timeline">
+              Our 40-Year Journey
+            </a>
+</div>
+<!-- Quick Stats Pill Strip -->
+<div class="pt-8 grid grid-cols-3 gap-4 max-w-lg">
+<div class="p-4 rounded-xl bg-surface-container shadow-sm">
+<span class="block font-headline-md text-headline-md text-primary font-bold">1984</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Founded in Mylapore</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container shadow-sm">
+<span class="block font-headline-md text-headline-md text-secondary font-bold">100%</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Pure Veg &amp; Sattvic</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container shadow-sm">
+<span class="block font-headline-md text-headline-md text-tertiary font-bold">2.4M+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Filter Coffees Poured</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-[420px] lg:max-w-none">
+<div class="w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" data-alt="Vintage atmospheric culinary photo of traditional South Indian brass filter coffee being poured in an arched stream between brass tumblers and davarah, warm steam rising softly, morning golden sunlight casting shadows in an heirloom tiled kitchen with terracotta tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDC-SryMOOC6YAKULMLR_Q5pamiNeHKRry-D03I2c3KSc1b8sEe2fv_-WJyIIfY6tW02KsncSUsCEqgg7q3yqc1iGL5dB_AiAq4NkY40UmEFqNOqUS8HQX35ybmRqOuZRuajAZDxYGBwwJgGLwRZ9w9Zl1Nt7Do-7aptZc6foqkQEtLqHAMpW42HfI1MHjAHUGu2jqsoIVTRH-ednLJRI-muXxtc93qAG86_jpm0YMmO1Lt547rkOeRxg"/>
+</div>
+<!-- Overlapping Heritage Card -->
+<div class="absolute -bottom-8 -left-6 md:-left-10 bg-surface p-6 rounded-2xl shadow-xl max-w-[280px]">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-secondary text-[26px]">eco</span>
+<span class="font-title-md text-title-md text-on-surface">Pure A2 Cow Ghee</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Every golden dosa is roasted solely in farm-churned butter and pure wood-pressed sesame oil.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Legacy Narrative Split Section -->
+<section class="w-full py-20 lg:py-28 bg-surface">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Visual Composition -->
+<div class="lg:col-span-6 grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="rounded-2xl overflow-hidden aspect-[3/4] shadow-md bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="An intimate portrait of a South Indian elderly founder carefully preparing freshly steamed fluffy white malli idlies on woven muslin cloth over brass steamer pots, gentle early morning light, warm sepia and terracotta tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtPtghl6DvJzkrbZNCAp_rvfXRi_1XABryD2ubSDxuM-TbkhDsh7OyJRvMdyMgt0-8Rt9YDbU5Y5-z0plncrCqZ7kQnv6AbOgKJpS2JY6VoeHBOxnRMjIuJhk2FpOV5WECPH125aC7rTWp3JscV1o2DAV8Yj19OY4GyJpPN_t23z_RtSW8RR9JFj8-exGecIGDQQjEtqYO95R3jSWvhEn4iNzs8F_X3KS-de5RXW__fzHRjTYOku77Hg"/>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-high">
+<span class="font-headline-sm text-headline-sm text-primary block mb-1">Mornings at 6:30 AM</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">The unmistakable rhythm of grinding stones begins before the city stirs awake.</p>
+</div>
+</div>
+<div class="space-y-4 pt-8">
+<div class="p-6 rounded-2xl bg-surface-variant">
+<span class="font-headline-sm text-headline-sm text-on-surface block mb-1">Fresh Every 2 Hours</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Chutneys ground fresh 5 times daily so coconut oils never oxidize or sour.</p>
+</div>
+<div class="rounded-2xl overflow-hidden aspect-[3/4] shadow-md bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Overhead aesthetic table setting featuring vibrant fresh green banana leaf with bowls of freshly tempered coconut chutney, spicy tomato kara chutney, coriander mint chutney, and steaming piping hot drumstick sambar garnished with fresh curry leaves." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9y3hkSqGCZ-cF3iDEPrTr7bKTf0NVzZJBIu_rR5oztFygZMHIReqvl0C9EKRYU2vW-zoa3d2k_h4VOGV0uK9zXBiS6BRkTcZbw6plS7gDrtO4vG1bLKr11JzBpeV-8kYtr_F7-AVxzwUe3N7iq9Puljl7n2SIJDpCniKd0DmeWbov7nUyUsnBvKPbQcpGcmCc5OBr1Rz9ERtyEwB65w6BKzx_agt4VxE_IdoZsyJ4v5DtzRpf6zJ5ug"/>
+</div>
+</div>
+</div>
+<!-- Narrative Content -->
+<div class="lg:col-span-6 space-y-6">
+<div class="flex items-center gap-2">
+<span class="h-0.5 w-8 bg-tertiary"></span>
+<span class="font-label-heritage text-label-heritage uppercase tracking-wider text-tertiary">The Founder's Covenant</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+            From a Neighborhood Tiffin Stall to an Enduring Sanctuary of Flavor
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            In the winter of 1984, our journey started with six wooden benches, a hand-beaten brass coffee filter, and our founder Shri K. Ramanujam's conviction: food served with devotion needs no artificial enhancers. Families gathered on Temple Road for piping-hot Malli Idlies that dissolved like cotton candy, dunked in comforting lentil sambar made from his mother's roasted spice recipe.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            While food trends evolved into industrial kitchens and powdered shortcuts, Welcome Restaurant stayed fiercely anchored. We still grind coconut chutneys every two hours, churn rich buffalo butter into fresh ghee every dawn, and preserve our open kitchen policy so every diner can witness pristine stainless steel and timeless brass cauldrons at work.
+          </p>
+<div class="pt-4 p-6 rounded-2xl bg-surface-container flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary text-[24px]">format_quote</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface italic">“Clean hands, pure minds, and sacred fire make true sustenance.”</p>
+<span class="font-label-md text-label-md text-primary font-semibold mt-1 block">— Shri K. Ramanujam, Founder</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- The Secret to Our Flavors (Philosophy Grid) -->
+<section class="w-full py-20 lg:py-28 bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+<span class="font-label-heritage text-label-heritage uppercase tracking-widest text-primary block">Culinary Craftsmanship</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Four Pillars of Our Kitchen</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">The nuanced depth of our tiffins is no accident; it is the natural consequence of patient craftsmanship.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="p-8 rounded-2xl bg-surface flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[32px]">architecture</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Natural Stone Grinding</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Wet-grinding parboiled rice and black gram inside heavy granite stone mills. Slow aeration keeps the batter cool, creating that signature feather-light, naturally fermented lift.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-high/40 p-3 rounded-lg text-center">
+<span class="font-label-heritage text-label-heritage uppercase text-tertiary">14-Hour Natural Fermentation</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-2xl bg-surface flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[32px]">oil_barrel</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">100% Desi Ghee &amp; Wood-Pressed Oils</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Zero compromise on cooking mediums. We strictly source slow-simmered A2 golden ghee and cold wood-pressed (Chekku) sesame oil for unadulterated aroma and easy digestion.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-high/40 p-3 rounded-lg text-center">
+<span class="font-label-heritage text-label-heritage uppercase text-tertiary">Zero Palm Oil or Vanaspati</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-2xl bg-surface flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[32px]">coffee</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Brass Filter Decoction</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Slow drip decoction filtered through perforated heavy-gauge brass canisters every 30 minutes, using roasted Arabica-Robusta beans from heritage Chikmagalur hills.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-high/40 p-3 rounded-lg text-center">
+<span class="font-label-heritage text-label-heritage uppercase text-tertiary">Brewed Fresh Every 30 Mins</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="p-8 rounded-2xl bg-surface flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-14 h-14 rounded-2xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[32px]">soup_kitchen</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">The Sacred Sambar Secret</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Coriander seeds, dry Guntur chillies, black pepper, and fenugreek dry-roasted on cast iron and ground every single morning. Never pre-packaged boxed powders.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-high/40 p-3 rounded-lg text-center">
+<span class="font-label-heritage text-label-heritage uppercase text-tertiary">Whole Spices Roasted Daily</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pure Veg & Hygiene Manifesto Section -->
+<section class="w-full py-20 lg:py-28 bg-surface" id="manifesto">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="p-8 md:p-14 rounded-3xl bg-surface-container space-y-10 shadow-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-8">
+<div class="space-y-3 max-w-2xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary/15">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary inline-block"></span>
+<span class="font-label-heritage text-label-heritage text-secondary uppercase font-semibold">Strict Sanctity Code</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Pure Vegetarian Manifesto</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">We view kitchen cleanliness not as a commercial obligation, but as an ancient spiritual trust.</p>
+</div>
+<div class="shrink-0 flex items-center gap-3 bg-surface px-5 py-3 rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[28px]">verified</span>
+<div>
+<span class="font-title-md text-title-md text-on-surface block leading-tight">Zero Meat Ever</span>
+<span class="font-label-md text-label-md text-on-surface-variant">100% Dedicated Plant-Based Facility</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-2xl bg-surface shadow-sm space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">format_image_left</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Zero Cross-Contamination</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              From delivery docks to storage freezers, non-vegetarian items, eggs, and synthetic broths have never crossed our threshold in 40 years.
+            </p>
+</div>
+<div class="p-6 rounded-2xl bg-surface shadow-sm space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">spa</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Sattvic &amp; Jain Options</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Strict Sattvic dining (cooked without root vegetables, garlic, or onions) is prepared fresh on dedicated utensils upon request at any hour.
+            </p>
+</div>
+<div class="p-6 rounded-2xl bg-surface shadow-sm space-y-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">sanitizer</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Transparent Open Kitchen</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Guests can freely inspect our open prep stations. Food-grade 304 stainless steel and copper-brass vessels sanitized using boiling RO water.
+            </p>
+</div>
+</div>
+<!-- Hygiene Metric Visual Bar -->
+<div class="pt-4 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+<div class="p-4 rounded-xl bg-surface/60">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">RO Water</span>
+<span class="block font-label-md text-label-md text-on-surface-variant mt-1">Multi-stage filtered cooking</span>
+</div>
+<div class="p-4 rounded-xl bg-surface/60">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Steam Sanitized</span>
+<span class="block font-label-md text-label-md text-on-surface-variant mt-1">Plates &amp; cutlery at 100°C</span>
+</div>
+<div class="p-4 rounded-xl bg-surface/60">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Farm Direct</span>
+<span class="block font-label-md text-label-md text-on-surface-variant mt-1">Daily local market produce</span>
+</div>
+<div class="p-4 rounded-xl bg-surface/60">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">FSSAI 5-Star</span>
+<span class="block font-label-md text-label-md text-on-surface-variant mt-1">Impeccable hygiene rating</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Master Chefs & Culinary Artisans -->
+<section class="w-full py-20 lg:py-28 bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+<div>
+<span class="font-label-heritage text-label-heritage uppercase tracking-widest text-primary block mb-2">The Hands Behind The Flavor</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Meet Our Master Craftsmen</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Culinary perfection isn't written in books; it lives in the muscle memory and instincts of our decades-long kitchen masters.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+<!-- Master Chef 1 -->
+<div class="flex flex-col sm:flex-row gap-6 p-6 sm:p-8 rounded-3xl bg-surface shadow-md items-center sm:items-start">
+<div class="w-40 h-48 rounded-2xl overflow-hidden shrink-0 shadow-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Dignified South Indian seasoned master chef wearing pristine white chef apron standing by a large seasoned iron griddle tawa pouring golden ghee onto a paper-thin crispy conical dosa, smiling warmly, cinematic natural light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS8bBhTaiCbmVDNlK4ua07DYneMTvMBaG6UpDdy_6WTBdWj5mT-BHx3EkFuxv7CP6i4COUn6ulj5HmS7JujnIpWpS5-F5nFn3YrAMJR6MLyaILZLRPwyXCh8OnH0m4Z4qxuK-Ssq_ON6w-Fa1zhdejcmCXSPIjiBIqSusPWUCpIdAGGosgaX_dbwSre69eo7r-JF8UhXx86g9QBA_R7MBJi3F6h8kGgHiSkHm1LHdkA6_2dwDzOHU_RA"/>
+</div>
+<div class="space-y-3 text-center sm:text-left">
+<div class="inline-block px-3 py-1 rounded bg-primary-container text-on-primary-container font-label-heritage text-label-heritage uppercase">
+              32 Years at Welcome
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Master Chef Ramanathan</h3>
+<span class="font-label-lg text-label-lg text-tertiary block font-semibold">Tiffin Architect &amp; Dosa Specialist</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Ramanathan has rolled over three million golden-crisp ghee roast dosas. His unmatched sense of iron tawa heat balance guarantees an impossibly crisp shell and tender center every time.
+            </p>
+</div>
+</div>
+<!-- Master Chef 2 -->
+<div class="flex flex-col sm:flex-row gap-6 p-6 sm:p-8 rounded-3xl bg-surface shadow-md items-center sm:items-start">
+<div class="w-40 h-48 rounded-2xl overflow-hidden shrink-0 shadow-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of an experienced South Indian filter coffee artisan holding two traditional brass tumblers apart, pulling hot frothy filter coffee in a meter long continuous silky stream, authentic warmth and deep golden brown hues." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL2IollNPCv7Oju8oj0yUed8_r8GsGIU9LfbEm_SVmd1BAw8bnIjGXlJaJFkTNCEf-nPavWLRvxM4NK6aSSnt1ykDXZp57lXnxMg_lY6IU5ng0DS2az47_xBYcReVBEjbfMro7689KITLTf22v_2c4rfRnN7Z6z2IZh4-u2QGlY6HJQadk9fBX7kFWDP0eybItUNTzuL-t2DsEo7X1R2X_HEy4qd536v9JoOX0rqIhovKkSFsr-jEpQA"/>
+</div>
+<div class="space-y-3 text-center sm:text-left">
+<div class="inline-block px-3 py-1 rounded bg-tertiary-container text-on-tertiary-container font-label-heritage text-label-heritage uppercase">
+              26 Years of Mastery
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Coffee Master Senthil</h3>
+<span class="font-label-lg text-label-lg text-tertiary block font-semibold">Kumbakonam Degree Coffee Connoisseur</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Master Senthil knows the precise temperature of boiling unpasteurized farm cow milk by ear. His theatrical ‘meter coffee’ pull aerates the brew into a velvety, creamy froth that locals celebrate.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Community & Milestones Timeline -->
+<section class="w-full py-20 lg:py-28 bg-surface" id="timeline">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="text-center max-w-xl mx-auto mb-16 space-y-2">
+<span class="font-label-heritage text-label-heritage uppercase tracking-widest text-primary block">Four Decades in Service</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Our Journey Through Time</h2>
+</div>
+<div class="relative max-w-3xl mx-auto">
+<!-- Milestone 1 -->
+<div class="flex gap-6 pb-12 relative group">
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary font-title-md text-title-md shrink-0 shadow-md">
+              84
+            </div>
+<div class="w-1 bg-surface-container-high flex-grow mt-2"></div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low w-full space-y-2 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">The Corner Tiffin Stall</span>
+<span class="font-label-heritage text-label-heritage text-on-surface-variant">1984</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Opened with just six bench seats near Kapaleeshwarar Temple. Ramanujam served 80 plates of Malli Idly and coffee each morning to temple-goers and school teachers.
+            </p>
+</div>
+</div>
+<!-- Milestone 2 -->
+<div class="flex gap-6 pb-12 relative group">
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 rounded-full bg-surface-variant text-on-surface flex items-center justify-center font-title-md text-title-md shrink-0 shadow-sm">
+              96
+            </div>
+<div class="w-1 bg-surface-container-high flex-grow mt-2"></div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low w-full space-y-2 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">The Traditional Thali Wing</span>
+<span class="font-label-heritage text-label-heritage text-on-surface-variant">1996</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Expanded to full afternoon banana-leaf meals. Introduced the 22-dish festival thali crafted strictly with seasonal native gourds and cold-pressed gingelly oil.
+            </p>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="flex gap-6 pb-12 relative group">
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 rounded-full bg-surface-variant text-on-surface flex items-center justify-center font-title-md text-title-md shrink-0 shadow-sm">
+              11
+            </div>
+<div class="w-1 bg-surface-container-high flex-grow mt-2"></div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low w-full space-y-2 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Organic Sourcing Direct from Farms</span>
+<span class="font-label-heritage text-label-heritage text-on-surface-variant">2011</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Partnered with organic grain co-operatives in Thanjavur and coffee plantations in Chikmagalur to protect crop heritage and avoid pesticide contamination.
+            </p>
+</div>
+</div>
+<!-- Milestone 4 -->
+<div class="flex gap-6 relative group">
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-title-md text-title-md shrink-0 shadow-md">
+              24
+            </div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container w-full space-y-2 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-secondary">Celebrating 40 Golden Years</span>
+<span class="font-label-heritage text-label-heritage text-secondary">2024</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Three generations of families continue to break bread under our roof. We introduced eco-conscious leaf-wrapped home deliveries without losing an ounce of soul.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Community Testimonial Reel -->
+<section class="w-full py-16 bg-surface-container-high/40">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-2xl bg-surface shadow-sm space-y-3">
+<div class="flex text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+            “My grandfather held his retirement party here in 1991, and last Sunday we held our daughter's naming ceremony breakfast. The sambar still tastes exactly as heavenly as my childhood memories.”
+          </p>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">— Sundaram V., Mylapore Resident</span>
+</div>
+<div class="p-6 rounded-2xl bg-surface shadow-sm space-y-3">
+<div class="flex text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+            “As someone strictly following a Jain diet, eating out used to mean anxiety. Welcome's dedicated zero-garlic tiffin tawa gives me 100% peace of mind and unforgettable flavors.”
+          </p>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">— Bhavna Shah, Regular Patron</span>
+</div>
+<div class="p-6 rounded-2xl bg-surface shadow-sm space-y-3">
+<div class="flex text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+            “The froth on Master Senthil's coffee stays intact till the last sip. There is no other filter coffee in South India that matches this consistency.”
+          </p>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">— Ananya Krishnan, Food Historian</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Warm Invite Section (CTA Banner) -->
+<section class="w-full py-20 lg:py-24 bg-surface">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-12">
+<div class="relative overflow-hidden rounded-3xl bg-primary text-on-primary p-8 md:p-16 shadow-xl">
+<!-- Subtle Kolam Geo Background Graphic -->
+<div class="absolute -right-24 -bottom-24 w-96 h-96 opacity-10 pointer-events-none">
+<svg class="w-full h-full stroke-current" fill="none" stroke-width="1.5" viewbox="0 0 200 200">
+<circle cx="100" cy="100" r="90"></circle>
+<circle cx="100" cy="100" r="60"></circle>
+<circle cx="100" cy="100" r="30"></circle>
+<path d="M100 10 L100 190 M10 100 L190 100 M36 36 L164 164 M36 164 L164 36"></path>
+</svg>
+</div>
+<div class="max-w-2xl space-y-6 relative z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-on-primary/10 backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+<span class="font-label-heritage text-label-heritage uppercase tracking-wider">Atithi Devo Bhava</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold leading-tight">
+            Experience Authentic South Indian Hospitality in Person
+          </h2>
+<p class="font-body-lg text-body-lg opacity-90 leading-relaxed">
+            Join us at our family table near the temple bells of Mylapore, or bring the piping hot joy of pure ghee tiffins straight to your home.
+          </p>
+<div class="pt-4 flex flex-wrap items-center gap-4">
+<button class="h-12 px-6 rounded-lg bg-surface text-primary hover:bg-surface-container font-label-lg text-label-lg transition-colors shadow-md flex items-center gap-2" id="reserveTableBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+              Book a Dining Table
+            </button>
+<a class="h-12 px-6 rounded-lg bg-primary-container hover:bg-on-primary/20 text-on-primary font-label-lg text-label-lg transition-colors flex items-center gap-2" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">directions</span>
+              Get Directions to Mylapore
+            </a>
+</div>
+<div class="pt-6 flex flex-wrap items-center gap-6 font-body-sm text-body-sm opacity-80">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+              Open Daily: 6:30 AM – 10:30 PM
+            </span>
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">local_parking</span>
+              Valet Parking Available
+            </span>
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+              Wheelchair Accessible
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Reservation Quick Modal Overlay -->
+<div class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden items-center justify-center p-4" id="bookingModal">
+<div class="bg-surface rounded-2xl max-w-md w-full p-6 shadow-2xl relative space-y-4">
+<div class="flex items-center justify-between pb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Reserve Your Table</h3>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-lg" id="closeModalBtn" type="button">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Experience our tranquil dining hall. For traditional banana leaf thali lunch, prior booking is recommended.
+      </p>
+<form class="space-y-4 pt-2" id="reservationForm">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Your Full Name</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container-lowest text-on-surface outline-none focus:ring-2 focus:ring-primary shadow-sm" placeholder="e.g. Ramesh Iyer" required="" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Guests</label>
+<select class="w-full h-11 px-3 rounded-lg bg-surface-container-lowest text-on-surface outline-none focus:ring-2 focus:ring-primary shadow-sm">
+<option>2 Persons</option>
+<option>4 Persons</option>
+<option>6 Persons</option>
+<option>8+ Family Feast</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Preferred Time</label>
+<select class="w-full h-11 px-3 rounded-lg bg-surface-container-lowest text-on-surface outline-none focus:ring-2 focus:ring-primary shadow-sm">
+<option>Morning Tiffin (8:30 AM)</option>
+<option>Lunch Thali (12:30 PM)</option>
+<option>Evening Tiffin (5:00 PM)</option>
+<option>Dinner Feast (7:30 PM)</option>
+</select>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<input class="w-4 h-4 rounded text-secondary focus:ring-secondary accent-secondary" id="jainReq" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant" for="jainReq">Request Sattvic / Jain preparation (No onion / garlic)</label>
+</div>
+<button class="w-full h-11 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-colors shadow-md mt-4" type="submit">
+          Confirm Reservation Request
+        </button>
+</form>
+</div>
+</div>
+<script>
+    (function initInteractive() {
+      const modal = document.getElementById('bookingModal');
+      const openBtn = document.getElementById('reserveTableBtn');
+      const closeBtn = document.getElementById('closeModalBtn');
+      const resForm = document.getElementById('reservationForm');
+
+      if (openBtn && modal && closeBtn) {
+        openBtn.addEventListener('click', () => {
+          modal.classList.remove('hidden');
+          modal.classList.add('flex');
+        });
+
+        closeBtn.addEventListener('click', () => {
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+        });
+
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+          }
+        });
+      }
+
+      if (resForm) {
+        resForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          alert('Vanakkam! Your reservation request has been received. Our dining host will confirm via SMS shortly.');
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+          resForm.reset();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low"><div class="max-w-[1280px] mx-auto px-6 lg:px-12 pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl mb-space-xl"><div class="space-y-space-md"><div class="flex items-center gap-3"><div class="w-9 h-9 rounded-lg bg-primary-container flex items-center justify-center"><span class="material-symbols-outlined text-on-primary-container text-[20px]">restaurant</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary">Welcome Restaurant</span><span class="font-label-heritage text-label-heritage text-tertiary uppercase">Pure Veg Tradition</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant">Honoring timeless South Indian kitchen craftsmanship since 1984. Prepared with slow-stone grounded batter, A2 organic ghee, and freshly roasted spice blends.</p><div class="flex items-center gap-2 pt-1"><div class="w-4 h-4 rounded-sm border-2 border-secondary flex items-center justify-center"><span class="w-2 h-2 rounded-full bg-secondary block"></span></div><span class="font-label-heritage text-label-heritage text-secondary tracking-widest uppercase font-semibold">Certified Pure Vegetarian</span></div></div><div class="space-y-space-sm"><span class="font-title-md text-title-md text-on-surface block">Tiffin Specialties</span><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Malli Idly &amp; Medu Vada</a></li><li><a class="hover:text-primary transition-colors" href="#">Ghee Podi Masala Dosa</a></li><li><a class="hover:text-primary transition-colors" href="#">Ven Pongal &amp; Poori Masala</a></li><li><a class="hover:text-primary transition-colors" href="#">Fresh Appam with Coconut Milk</a></li><li><a class="hover:text-primary transition-colors" href="#">Kumbakonam Degree Filter Coffee</a></li></ul></div><div class="space-y-space-sm"><span class="font-title-md text-title-md text-on-surface block">Dining Hours &amp; Timings</span><div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><div class="flex justify-between py-1"><span class="text-on-surface font-medium">Morning Tiffins</span><span>6:30 AM - 11:30 AM</span></div><div class="flex justify-between py-1"><span class="text-on-surface font-medium">Full Meals &amp; Thali</span><span>11:45 AM - 3:30 PM</span></div><div class="flex justify-between py-1"><span class="text-on-surface font-medium">Snacks &amp; Filter Coffee</span><span>3:30 PM - 6:30 PM</span></div><div class="flex justify-between py-1"><span class="text-on-surface font-medium">Dinner Tiffins</span><span>6:30 PM - 10:30 PM</span></div></div></div><div class="space-y-space-sm"><span class="font-title-md text-title-md text-on-surface block">Visit Us</span><p class="font-body-sm text-body-sm text-on-surface-variant">No. 42, Temple Tower Road, Near Kapaleeshwarar Temple, Mylapore, Chennai, Tamil Nadu 600004</p><div class="space-y-1 font-body-sm text-body-sm text-on-surface-variant"><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">call</span><span>+91 44 2434 5678 / +91 44 2434 5679</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">mail</span><span>dine@welcomerestaurant.in</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">room_service</span><span>Catering &amp; Bulk Orders: +91 98400 12345</span></p></div></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2024 Welcome Restaurant. All Rights Reserved. Pure Vegetarian Culinary Trust.</p><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">Terms of Hospitality</a><a class="hover:text-primary transition-colors" href="#">FSSAI License #12418002001928</a></div></div></div></footer></body></html>

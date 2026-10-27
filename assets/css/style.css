@@ -1,0 +1,217 @@
+/* ==========================================================================
+   Welcome Restaurant - Dakshin Heritage Design System Styles
+   Pure Vegetarian • Est. 1984 • Mylapore, Chennai
+   ========================================================================== */
+
+/* Custom Smooth Transitions & Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF1EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 9999px;
+  border: 2px solid #FFF1EB;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B45309;
+}
+
+/* Kolam Border Pattern Styling */
+.kolam-pattern {
+  background-image: radial-gradient(#B45309 1px, transparent 1px), radial-gradient(#D97706 1px, #FFF8F6 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+  opacity: 0.05;
+}
+
+.gold-brass-gradient {
+  background: linear-gradient(135deg, #D97706 0%, #B45309 50%, #903F00 100%);
+}
+
+.banana-leaf-gradient {
+  background: linear-gradient(135deg, #15803D 0%, #006D30 100%);
+}
+
+/* Subtle Shimmer & Pulse */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2.5s infinite ease-in-out;
+}
+
+/* Glassmorphism Header */
+.header-glass {
+  background-color: rgba(255, 248, 246, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+.header-scrolled {
+  box-shadow: 0 4px 20px -2px rgba(41, 21, 11, 0.12);
+}
+
+/* Drawer & Modal Transitions */
+.drawer-backdrop {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer-panel {
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-panel.active {
+  transform: translateX(0);
+}
+
+.drawer-panel-left {
+  transform: translateX(-100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-panel-left.active {
+  transform: translateX(0);
+}
+
+.modal-content {
+  transform: scale(0.95);
+  opacity: 0;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-backdrop.active .modal-content {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Toast Notifications */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  background: #FFFDF9;
+  color: #2B160C;
+  border-left: 4px solid #B45309;
+  border-radius: 12px;
+  padding: 14px 18px;
+  box-shadow: 0 10px 30px -4px rgba(41, 21, 11, 0.16);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 280px;
+  max-width: 380px;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: toast-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.toast.toast-success {
+  border-left-color: #15803D;
+}
+
+.toast.toast-warning {
+  border-left-color: #D97706;
+}
+
+@keyframes toast-in {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes toast-out {
+  to {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+}
+
+/* Cart Badge Bounce */
+@keyframes badge-bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+.cart-bounce {
+  animation: badge-bounce 0.3s ease-out;
+}
+
+/* Interactive Card Hover Elevation */
+.dish-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.dish-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -4px rgba(41, 21, 11, 0.1);
+}
+
+/* Mobile Bottom Navigation Bar */
+.mobile-bottom-dock {
+  background: rgba(255, 248, 246, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid #FFE2D6;
+  box-shadow: 0 -4px 20px rgba(41, 21, 11, 0.08);
+}
+
+/* Print Styles for Menu PDF Export */
+@media print {
+  header, footer, .mobile-bottom-dock, #toast-container, #cart-drawer-container, #reservation-modal-container, .no-print, button, input {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+  }
+
+  main {
+    padding-top: 0 !important;
+  }
+
+  .print-page-break {
+    page-break-before: always;
+  }
+
+  .print-menu-header {
+    display: block !important;
+    text-align: center;
+    border-bottom: 2px solid #b45309;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+}
